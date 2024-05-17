@@ -36,3 +36,16 @@ source ./venv/Scripts/activate
 ./manage.py makemigrations
 ./manage.py migrate
 ```
+
+## Reset databáze
+
+```
+# smazat aktualni DB
+rm db.sqlite3
+
+# obnovit strukturu
+./manage.py migrate
+
+# nahrat data
+./manage.py loaddata fixtures/*.json
+```

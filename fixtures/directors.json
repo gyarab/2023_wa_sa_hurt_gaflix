@@ -1,0 +1,12 @@
+[
+{
+  "model": "filmy.director",
+  "pk": 1,
+  "fields": {
+    "name": "Tarantino",
+    "birth_year": null,
+    "description": "",
+    "main_picture": ""
+  }
+}
+]
