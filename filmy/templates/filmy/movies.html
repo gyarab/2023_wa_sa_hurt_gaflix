@@ -9,18 +9,18 @@
     {% for movie in movies %}
         <div class="col">
             <div class="card h-100">
-                <img class="card-img-top" src="https://place-hold.it/180x100/" alt="Card image cap">
+                <img class="card-img-top" src="{% if movie.main_picture %}{{movie.main_picture}}{% else %}https://place-hold.it/200x280/{% endif %}" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">{{ movie.name }} ({{ movie.year}})</h5>
                     {% if movie.director %}
                     <h6>{{movie.director}}</h6>
                     {% endif %}
 
-                    <span class="badge rounded-pill text-bg-primary">Comedy</span>
-                    <span class="badge rounded-pill text-bg-primary">Action</span>
-                    <span class="badge rounded-pill text-bg-primary">Western</span>
+                    {% for genre in movie.genres.all %}
+                    <span class="badge rounded-pill text-bg-primary">{{genre.name}}</span>
+                    {% endfor %}
 
-                    <p class="card-text ">Lorem ipsum</p>
+                    <p class="card-text ">{{ movie.description|truncatewords_html:10 }}</p>
                 </div>
                 <div class="card-footer text-end">
                     <a href="#" class="btn btn-primary">Detaily</a>
