@@ -1,3 +1,9 @@
 from django.shortcuts import render
 
-# Create your views here.
+from filmy.models import Movie
+
+def movies(request):
+    context = {
+        'movies': Movie.objects.all().order_by('name')
+    }
+    return render(request, 'filmy/movies.html', context)
