@@ -1,12 +1,42 @@
 [
-{
-  "model": "filmy.director",
-  "pk": 1,
-  "fields": {
-    "name": "Tarantino",
-    "birth_year": null,
-    "description": "",
-    "main_picture": ""
+  {
+    "model": "filmy.director",
+    "pk": 1,
+    "fields": {
+      "name": "Joseph Kosinski",
+      "birth_year": 1974,
+      "description": "",
+      "main_picture": ""
+    }
+  },
+  {
+    "model": "filmy.director",
+    "pk": 2,
+    "fields": {
+      "name": "Andrew Adamson",
+      "birth_year": 1966,
+      "description": "",
+      "main_picture": ""
+    }
+  },
+  {
+    "model": "filmy.director",
+    "pk": 3,
+    "fields": {
+      "name": "Quentin Tarantino",
+      "birth_year": 1963,
+      "description": "",
+      "main_picture": ""
+    }
+  },
+  {
+    "model": "filmy.director",
+    "pk": 4,
+    "fields": {
+      "name": "David Fincher",
+      "birth_year": 1962,
+      "description": "",
+      "main_picture": ""
+    }
   }
-}
 ]

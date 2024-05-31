@@ -1,50 +1,93 @@
 [
-{
-  "model": "filmy.movie",
-  "pk": 1,
-  "fields": {
-    "name": "Samotáři",
-    "year": 2000,
-    "footage": 109,
-    "description": "Sedm mladých lidí ve věku od 23 do 33 let se na konci devadesátých let ve velkém městě pokouší praktikovat cosi, čemu se dříve říkalo milostný vztah. A tak na sebe milostně narážejí a nechávají se unášet napříč dlouhodobějšími či krátkodobějšími vztahy, které je dovedou zpět do samoty. Robert pracuje v cestovní kanceláři a rád rozplétá a splétá osudy lidí. Napomůže rozchodu Hanky a Petra, který se pokouší pochopit život skrze nahrávky „opravdového života“ pouštěné do éteru. Zatímco je Hanka pronásledována Ondřejem, do té doby uznávaným lékařem a otcem rodiny, seznamuje se s Jakubem, jehož pozitivnímu pohledu na svět pomáhá pravidelné užívání marihuany. Na druhé straně to ale způsobuje zhoršování jeho krátkodobé paměti, takže se v jejich vztahu objevují problémy. Zklamaná Hanka hledá pochopení u rodičů, ale doma najde jen dvacet Japonců sledujících „normální rodinku při normální večeři“.",
-    "main_picture": "https://image.pmgstatic.com/cache/resized/w663/files/images/film/posters/158/305/158305223_c64891.jpg",
-    "director": 2,
-    "actors": [
-      1
-    ],
-    "genres": [
-      3,
-      7
-    ]
+  {
+    "model": "filmy.movie",
+    "pk": 1,
+    "fields": {
+      "name": "Top Gun: Maverick",
+      "year": 2022,
+      "footage": null,
+      "description": "Pete „Maverick“ Mitchell (Tom Cruise) k smrti rád pilotuje stíhačky. Dokonce tak, že se už přes třicet let úspěšně brání povýšení ve strukturách amerického letectva, protože to by ho z kokpitu vyhnalo do vyhřáté kanceláře. Maverick byl navíc vždycky magnetem na průšvihy, což se s armádní kariérou taky docela vylučuje.",
+      "main_picture": "//image.pmgstatic.com/cache/resized/w663/files/images/film/posters/166/205/166205318_28cfab.jpg",
+      "director": 1,
+      "actors": [
+        2
+      ],
+      "genres": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "filmy.movie",
+    "pk": 2,
+    "fields": {
+      "name": "Shrek",
+      "year": 2001,
+      "footage": null,
+      "description": "Odvážný Shrek (Mike Myers) pátrá se svým kamarádem, sympatickým a chvastounským oslem (Eddie Murphy) po krásné a divoké princezně Fioně (Cameron Diaz). Za její záchranu chce od intrikána Lorda Farquadda (John Lithgow) získat zpět svou milovanou bažinu.",
+      "main_picture": "//image.pmgstatic.com/cache/resized/w663/files/images/film/posters/158/600/158600745_6cc2db.jpg",
+      "director": 2,
+      "actors": [],
+      "genres": [
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "model": "filmy.movie",
+    "pk": 3,
+    "fields": {
+      "name": "Pulp Fiction: Historky z podsvětí",
+      "year": 1994,
+      "footage": null,
+      "description": "Nejkultovnější z kultovních filmů 90. let je autorskou Biblí Quentina Tarantina, který v tomto opusu definoval základní prvky své režisérské poetiky a vytvořil dílo rozněcující náročné kritiky na festivalu v Cannes, levicové a pravicové intelektuály i zedníky dopřávající si po těžké šichtě trochu oddychu.",
+      "main_picture": "//image.pmgstatic.com/cache/resized/w663/files/images/film/posters/158/336/158336635_61bc7c.jpg",
+      "director": 3,
+      "actors": [],
+      "genres": [
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "model": "filmy.movie",
+    "pk": 4,
+    "fields": {
+      "name": "Fight Club",
+      "year": 1999,
+      "footage": null,
+      "description": "Když nemůžete půl roku usnout, celý okolní svět vám začne připadat jako nekonečný sen. Všechno kolem vás je nedokonalou xeroxovou kopií sebe sama. Chodíte do práce, díváte se na televizi a jste vděčni za to, když občas ztratíte vědomí a nevíte o světě. Lidí s podobnými problémy moc není, ale mladý úspěšný úředník, který si říká Jack, je jedním z nich. Má slušnou práci, vydělává slušné peníze, ale trpí nejtěžší formou nespavosti. Na služební cestě se Jack seznámí s Tylerem Durdenem, který mu nabídne příbytek pod podmínkou, že mu vrazí pořádnou ránu. Tato \"výměna názorů\" se oběma zalíbí a brzy vznikne první Klub rváčů. Místo, kde můžou mladí muži, znechucení světem, odložit své starosti a stát se na pár minut zvířaty.",
+      "main_picture": "//image.pmgstatic.com/cache/resized/w663/files/images/film/posters/162/468/162468180_3e343f.jpg",
+      "director": null,
+      "actors": [
+        1
+      ],
+      "genres": [
+        8,
+        2
+      ]
+    }
+  },
+  {
+    "model": "filmy.movie",
+    "pk": 5,
+    "fields": {
+      "name": "Samotáři",
+      "year": 2000,
+      "footage": null,
+      "description": "Sedm mladých lidí ve věku od 23 do 33 let se na konci devadesátých let ve velkém městě pokouší praktikovat cosi, čemu se dříve říkalo milostný vztah. A tak na sebe milostně narážejí a nechávají se unášet napříč dlouhodobějšími či krátkodobějšími vztahy, které je dovedou zpět do samoty. Robert pracuje v cestovní kanceláři a rád rozplétá a splétá osudy lidí. Napomůže rozchodu Hanky a Petra, který se pokouší pochopit život skrze nahrávky „opravdového života“ pouštěné do éteru. Zatímco je Hanka pronásledována Ondřejem, do té doby uznávaným lékařem a otcem rodiny, seznamuje se s Jakubem, jehož pozitivnímu pohledu na svět pomáhá pravidelné užívání marihuany. Na druhé straně to ale způsobuje zhoršování jeho krátkodobé paměti, takže se v jejich vztahu objevují problémy. Zklamaná Hanka hledá pochopení u rodičů, ale doma najde jen dvacet Japonců sledujících „normální rodinku při normální večeři“.",
+      "main_picture": "//image.pmgstatic.com/cache/resized/w663/files/images/film/posters/158/305/158305223_c64891.jpg",
+      "director": null,
+      "actors": [],
+      "genres": [
+        6,
+        2
+      ]
+    }
   }
-},
-{
-  "model": "filmy.movie",
-  "pk": 2,
-  "fields": {
-    "name": "Pelíšky",
-    "year": 1999,
-    "footage": 116,
-    "description": "A je tu zpět jedna z nejúspěšnějších českých filmových komedií od renomovaných tvůrců - režiséra J. Hřebejka a scenáristy P. Jarchovského s řadou skvělých herců. Vraťme se tedy s oblíbenými postavami k rodinným rituálům, láskám a trapasům odehrávajícím se na sklonku šedesátých let minulého století v jedné pražské čtvrti. Jemná poetika a humorná nadsázka jsou charakteristické pro vyprávění životních osudů tří generací mužů a žen ve zvláštním období našich dějin v roce 1968… V jedné dvoupatrové vile tu žijí dvě rodiny - Šebkovi a Krausovi. Otec Šebek (M. Donutil), prostoduchý, ale dobrácký důstojník z povolání, je zastáncem panujícího režimu a stejně vehementně obhajuje i vlastní neomylnost v roli hlavy rodiny. Elegantní otec Kraus (J. Kodet), bývalý odbojář s trpkou válečnou zkušeností, je naopak zarytým opozičníkem. Také on je přesvědčený o tom, že má za všech okolností pravdu - není proto divu, že se tihle dva nemají zrovna v lásce. Jejich děti - gymnazista Michal (M. Beran) a jeho spolužačka Jindřiška (K. Nováková) - spolu vycházejí docela dobře. I když Michal by byl rád, kdyby ho jeho sousedka brala trochu víc na vědomí. Ta má ale oči pro jiného. Nezbývá mu tedy nic jiného, než aby smutně přihlížel, jak mu jeho první milostné body krade spolužák Elien (O. Brousek). U Šebků a Krausů se zatím střídají rodinné návštěvy, ve vší obřadnosti se tu slaví Vánoce, svatba i nečekaný, bolestný pohřeb. Do zabydlených domácností vtrhnou i některé novodobé vymoženosti v podobě umělohmotných lžiček, nerozbitných sklenic i podivných her pro statečné pionýry. Mládež zatím pokukuje po lákadlech světa kapitalismu a snaží se žít svůj vlastní, na rodičovských autoritách a \"velké\" historii nezávislý život. V soukromí rodinných pelíšků se tak čas od času odehrají malá dramata názorů a vztahů, která se v paměti jejich účastníků otisknou už nejspíš navždy…",
-    "main_picture": "https://image.pmgstatic.com/cache/resized/w663/files/images/film/posters/000/004/4110_23b101.jpg"
-  }
-},
-{
-  "model": "filmy.movie",
-  "pk": 3,
-  "fields": {
-    "name": "Django unchained",
-    "year": 2012,
-    "footage": 165,
-    "description": "Píše se rok 1858 a v Americe právě probíhá občanská válka. Texasem vedou bratři Ace a Dicky Speckovi pěšky skupinu spoutaných černých otroků a mezi nimi je i hlavní hrdina otrok Django. Ten má šanci získat díky nájemnému lovci lidí dr. Schultzovi svobodu, pokud se mu povede dopadnout vraždící bratry Brittlovi. Djangovi se tak zároveň naskytne příležitost najít ženu, kterou musel před lety nedobrovolně opustit. Ani jeden z hlavních hrdinů však netuší, jak blízko jsou nejnebezpečnějšímu dobrodružství svého života...",
-    "main_picture": "https://image.pmgstatic.com/cache/resized/w663/files/images/film/posters/158/573/158573265_654565.jpg",
-    "director": 1,
-    "actors": [
-      2
-    ],
-    "genres": [
-      1
-    ]
-  }
-}
 ]
