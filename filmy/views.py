@@ -1,7 +1,8 @@
 from django.db.models import Q
 from django.shortcuts import render
 
-from filmy.models import Movie, Genre
+from filmy.models import Movie, Genre, Actor, Director
+
 
 def movies(request):
     movies_queryset = Movie.objects.all().order_by('name')
@@ -26,3 +27,35 @@ def movie(request, id):
         'movie': Movie.objects.get(id=id)
     }
     return render(request, 'filmy/movie.html', context)
+
+
+def actors(request):
+    context = {
+        'actors': Actor.objects.all().order_by('name')
+    }
+
+    return render(request, 'filmy/actors.html', context)
+
+
+def actor(request, id):
+    context = {
+        'actor': Actor.objects.get(id=id)
+    }
+
+    return render(request, 'filmy/actor.html', context)
+
+
+def director(request, id):
+    context = {
+        'director': Director.objects.get(id=id)
+    }
+
+    return render(request, 'filmy/director.html', context)
+
+
+def directors(request):
+    context = {
+        'directors': Director.objects.all().order_by('name')
+    }
+
+    return render(request, 'filmy/directors.html', context)

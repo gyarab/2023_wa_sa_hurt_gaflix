@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path
 from django.views.generic import TemplateView
 
-from filmy.views import movie, movies
+from filmy.views import movie, movies, actor, actors, director, directors
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -26,4 +26,8 @@ urlpatterns = [
     path('druhy/',  TemplateView.as_view(template_name="filmy/druhy.html")),
     path('filmy/', movies, name="movies"),
     path('film/<int:id>/', movie, name="movie"),
+    path('actors/', actors, name="actors"),
+    path('actor/<int:id>', actor, name="actor"),
+    path('directors/', directors, name="directors"),
+    path('director/<int:id>', director, name="director"),
 ]
